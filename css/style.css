@@ -20,11 +20,11 @@
 }
 .container nav {
   width: 100%;
-  height: 114px;
+  height: 7rem;
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .container nav .button {
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px #ff8fd8;
+  border: solid 1px hsl(321deg, 100%, 78%);
   border-radius: 30px;
 }
 .container nav .button a {
@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #ff8fd8;
+  color: hsl(321deg, 100%, 78%);
   font-family: poppins;
 }
 .container nav .pusher {
@@ -52,7 +52,7 @@
   background-color: aqua;
 }
 .container nav .logo {
-  width: 151px;
+  width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,8 +62,8 @@
 }
 .container .sectionOne {
   width: 90%;
-  height: 495px;
-  margin: 66px auto 0 auto;
+  height: 35rem;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -73,12 +73,12 @@
 .container .sectionOne h2 {
   display: block;
   width: 458px;
-  height: 61px;
+  height: 6rem;
   font-size: 38px;
   text-align: center;
   font-family: poppins;
   line-height: 55px;
-  color: #00252e;
+  color: hsl(192deg, 100%, 9%);
   font-weight: bolder;
 }
 .container .sectionOne p {
@@ -88,8 +88,8 @@
   font-size: 19px;
   text-align: center;
   font-family: poppins;
-  line-height: 30px;
-  color: #00252e;
+  line-height: 40px;
+  color: hsl(192deg, 100%, 9%);
 }
 .container .sectionOne a {
   font-family: poppins;
@@ -98,15 +98,15 @@
   border-radius: 78px;
   text-decoration: none;
   outline: none;
-  background-color: #ff52bf;
-  color: #f5faff;
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(207deg, 100%, 98%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container .sectionTwo {
-  width: 80%;
-  margin: 122px auto;
+  width: 94%;
+  margin: 6rem auto;
 }
 .container .sectionTwo .section-two-ill {
   width: 100%;
@@ -179,11 +179,114 @@
   width: 100%;
   font-size: 1.55rem;
 }
+.container .section__four {
+  width: 90%;
+  height: 180rem;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .section__four .section__four__grow,
+.container .section__four .section__four__conversations,
+.container .section__four .section__four__users {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .section__four .section__four__grow .section__four__illustration,
+.container .section__four .section__four__conversations .section__four__illustration,
+.container .section__four .section__four__users .section__four__illustration {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .section__four .section__four__grow .section__four__illustration img,
+.container .section__four .section__four__conversations .section__four__illustration img,
+.container .section__four .section__four__users .section__four__illustration img {
+  width: 100%;
+}
+.container .section__four .section__four__grow .section__four__info,
+.container .section__four .section__four__conversations .section__four__info,
+.container .section__four .section__four__users .section__four__info {
+  width: 100%;
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .section__four .section__four__grow .section__four__info h2,
+.container .section__four .section__four__conversations .section__four__info h2,
+.container .section__four .section__four__users .section__four__info h2 {
+  font-size: 2rem;
+  height: 20%;
+}
+.container .section__four .section__four__grow .section__four__info p,
+.container .section__four .section__four__conversations .section__four__info p,
+.container .section__four .section__four__users .section__four__info p {
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  height: 52%;
+  text-align: center;
+}
+.container .section__four .section__four__conversations {
+  align-self: center;
+}
+.container .section__five {
+  width: 100%;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .section__five .section__five__inner {
+  width: 80%;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.container .section__five .section__five__inner h1 {
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+}
+.container .section__five .section__five__inner a {
+  font-family: poppins;
+  width: 294px;
+  height: 58px;
+  border-radius: 78px;
+  text-decoration: none;
+  outline: none;
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(207deg, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media only screen and (min-width: 1200px) {
   .container {
-    width: 1201px;
+    width: 80rem;
     margin: auto;
+  }
+  .container nav .logo {
+    width: 15rem;
   }
   .container .sectionOne {
     width: 100%;
@@ -193,15 +296,30 @@
   }
   .container .sectionThree {
     width: 80%;
-    margin: 375px auto;
+    margin: 30rem auto 0 auto;
     flex-direction: row;
   }
   .container .sectionThree .section-1 {
     width: 50%;
+    padding: 0 0 0 5rem;
   }
   .container .sectionThree .section-2 {
     width: 50%;
     margin: 0;
+    padding: 0 0 0 5rem;
+  }
+  .container .section__four {
+    width: 100%;
+    height: 138rem;
+  }
+  .container .section__four .section__four__grow,
+.container .section__four .section__four__conversations,
+.container .section__four .section__four__users {
+    height: rem;
+    flex-direction: row;
+  }
+  .container .section__four .section__four__conversations {
+    flex-direction: row-reverse;
   }
 }
 

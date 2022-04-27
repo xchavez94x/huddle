@@ -1,0 +1,21 @@
+{
+  "name": "huddle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xchavez94x/huddle.git"
+  },
+  "keywords": [],
+  "author": "Akhmed Saadoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xchavez94x/huddle/issues"
+  },
+  "homepage": "https://github.com/xchavez94x/huddle#readme"
+}

@@ -32,11 +32,11 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
 
     nav {
         width: 100%;
-        height: 114px;
+        height: 7rem;
         margin: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         .button {
             width: 125px;
@@ -59,7 +59,7 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
             background-color: aqua;
         }
         .logo {
-            width: 151px;
+            width: 10rem;
             @include centerer();
             img {
                 width:100%;
@@ -69,8 +69,8 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
 
     .sectionOne {
         width: 90%;
-        height: 495px;
-        margin: 66px auto 0 auto;
+        height: 35rem;
+        margin: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -79,7 +79,7 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
         h2 {
             display: block;
             width: 458px;
-            height: 61px;
+            height: 6rem;
             font-size: 38px;
             text-align: center;
             font-family: poppins;
@@ -94,7 +94,7 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
             font-size: 19px;
             text-align: center;
             font-family: poppins;
-            line-height: 30px;
+            line-height: 40px;
             color: $Very-Dark-Cyan;
         }
         a {
@@ -111,8 +111,8 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
     }
 
     .sectionTwo {
-        width: 80%;
-        margin: 122px auto;
+        width: 94%;
+        margin: 6rem auto;
 
         .section-two-ill {
             width: 100%;
@@ -191,29 +191,153 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
             }
         }
     } 
+
+    .section__four {
+        width: 90%;
+        height: 180rem;
+        margin: 10rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .section__four__grow,
+        .section__four__conversations,
+        .section__four__users {
+            width: 100%;
+            height: 60rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .section__four__illustration {
+                width: 100%;
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+                img {
+                    width: 100%;
+                }
+            }
+            .section__four__info {
+                width: 100%;
+                height: 32%;
+                ;display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                h2 {
+                    font-size: 2rem;
+                    height: 20%;
+                }
+                p {
+                    font-size: 1.2rem;
+                    display: block;
+                    width: 100%;
+                    height: 52%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .section__four__conversations {
+            align-self: center;
+        }
+    }
+
+    .section__five {
+        width: 100%;
+        height: 24rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .section__five__inner {
+            width: 80%;
+            height: 23rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            h1 {
+                width: 100%;
+                height: 5rem;
+                text-align: center;
+                @include centerer();
+                font-size: 2.3rem;
+            }
+    
+            a {
+                font-family: poppins;
+                width: 294px;
+                height: 58px;
+                border-radius: 78px;
+                text-decoration: none;
+                outline: none;
+                background-color: $Pink;
+                color: $Very-Pale-Blue;
+                @include centerer();
+            }
+        }
+
+        
+    }
 }
 
 @media only screen and (min-width:1200px)  {
     .container {
-        width: 1201px;
+        width: 80rem;
         margin: auto;
+        nav {
+            .logo {
+                width: 15rem;
+            }
+        }
         .sectionOne {
             width: 100%;
+
         }
         .sectionTwo {
             width: 80%;
         }
         .sectionThree {
             width: 80%;
-            margin: 375px auto; 
+            margin: 30rem auto 0 auto; 
             flex-direction: row;
             .section-1 {
                 width: 50%;
+                padding: 0 0 0 5rem;
+                
             }
             .section-2 {
                 width: 50%;
                 margin: 0;
+                padding: 0 0 0 5rem;
             }
+        }
+
+        .section__four {
+            width: 100%;
+            height: 138rem;
+
+            .section__four__grow,
+            .section__four__conversations,
+            .section__four__users { 
+                height: rem;
+                flex-direction: row;
+            }
+            .section__four__conversations {
+                flex-direction: row-reverse;
+            }
+
+            
+
+
         }
     }
 }
