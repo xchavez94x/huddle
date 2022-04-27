@@ -280,6 +280,15 @@
   align-items: center;
 }
 
+@media screen and (max-width: 27.3rem) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .container .sectionOne {
+    width: 80%;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .container {
     width: 80rem;
