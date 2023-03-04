@@ -125,7 +125,7 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
     }
 
     .sectionThree {
-        margin: 90px 0 0 auto;
+        margin: 10px 0 0 auto;
         width: 80%;
         height:600px;
         display: flex;
@@ -311,24 +311,35 @@ $Very-Pale-Blue: hsl(207, 100%, 98%);
         }
         .sectionOne {
             width: 100%;
-
+            
         }
         .sectionTwo {
             width: 80%;
+            height: 34rem;
+            .section-two-ill {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 40rem;
+                }
+            }
         }
         .sectionThree {
             width: 80%;
-            margin: 30rem auto 0 auto; 
+            height: 10rem;
+            margin: 4rem auto 0 auto; 
             flex-direction: row;
             .section-1 {
                 width: 50%;
                 padding: 0 0 0 5rem;
-                
+                height: 100px;
             }
             .section-2 {
                 width: 50%;
                 margin: 0;
                 padding: 0 0 0 5rem;
+                height: 100px;
             }
         }
 
