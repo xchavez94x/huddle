@@ -1,6 +1,6 @@
 ## Huddle landing page
 
-Huddle is the first [Frontend Mentor](frontendmentor.io) challenge, implemented using:
+Huddle is the first [Frontend Mentor](https://www.frontendmentor.io) challenge, implemented using:
 
 - HTML
 - SCSS, CSS
